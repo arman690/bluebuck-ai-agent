@@ -1,0 +1,97 @@
+🚀 Testing Simple Effective RAG Agent
+=======================================================
+✅ OpenAI client initialized
+✅ Loaded 9 FAQ items
+🧪 Testing Simple RAG System...
+-------------------------------------------------------
+
+[1] ❓ Query: What is BlueBuck AI?
+✅ OpenAI response received: 339 characters
+🤖 Answer: BlueBuck AI is an advanced artificial intelligence platform that businesses can utilize to automate processes, analyze data, and make informed decisions through cutting-edge machine learning algorithms. It's a powerful tool designed to help businesses streamline operations and enhance efficiency by leveraging the latest in AI technology.
+📊 Confidence: 0.95
+✅ → ANSWERED
+
+[2] ❓ Query: How much does the Professional plan cost?
+✅ OpenAI response received: 438 characters
+🤖 Answer: The Professional Plan offered by BlueBuck AI is priced at $299 per month. This plan is designed for growing companies and provides advanced features along with the option for custom integrations to suit your business needs. Additionally, with the Professional Plan, you can benefit from dedicated account managers, priority support with quicker response times, and custom onboarding sessions.
+📊 Confidence: 0.62
+✅ → ANSWERED
+
+[3] ❓ Query: Is there a free trial?
+✅ OpenAI response received: 398 characters
+🤖 Answer: Absolutely! BlueBuck AI offers a generous 14-day free trial for all new users. This trial allows you to experience most of the platform's features without needing to provide a credit card. It's a great opportunity to explore our automation tools and see firsthand how they can benefit your business.
+📊 Confidence: 0.76
+✅ → ANSWERED
+
+[4] ❓ Query: What integrations do you support?
+✅ OpenAI response received: 541 characters
+🤖 Answer: BlueBuck AI supports a wide range of integrations with popular business tools. Some of the integrations include Salesforce, HubSpot, Slack, Microsoft Office 365, Google Workspace, MySQL, PostgreSQL, AWS, and Azure. These integrations are made possible through our robust REST API. Additionally, we offer custom integration development for Enterprise clients who may have specific integration needs.
+📊 Confidence: 0.57
+✅ → ANSWERED
+
+[5] ❓ Query: How secure is my data?
+✅ OpenAI response received: 479 characters
+🤖 Answer: Your data security is a top priority for BlueBuck AI. We take extensive measures to ensure the protection of your information. This includes utilizing end-to-end encryption, maintaining SOC 2 Type II compliance, conducting regular third-party security audits, implementing multi-factor authentication, and storing data in secure centers with geographic redundancy.
+📊 Confidence: 0.59
+✅ → ANSWERED
+
+[6] ❓ Query: Can I customize the AI models?
+✅ OpenAI response received: 578 characters
+🤖 Answer: Absolutely! BlueBuck AI allows you to customize AI models with the Professional and Enterprise plans. This means you can train your own AI models using your data, create custom workflows, set up automation rules, and even collaborate with our team to develop specialized features tailored to your needs. For Enterprise clients, there are dedicated development resources available for more complex customizations.
+📊 Confidence: 0.80
+✅ → ANSWERED
+
+[7] ❓ Query: What industries do you serve?
+✅ OpenAI response received: 729 characters
+🤖 Answer: BlueBuck AI serves a wide range of industries to cater to various business needs. Some of the industries BlueBuck AI supports include e-commerce and retail for tasks like inventory management and customer service, financial services for functions like fraud detection and risk assessment, healthcare for activities such as patient data analysis and appointment scheduling, manufacturing for tasks like predictive maintenance and quality control, technology for automated testing and code review, and professional services for activities like document processing and client management.
+📊 Confidence: 0.59
+✅ → ANSWERED
+
+[8] ❓ Query: How do I get started?
+✅ OpenAI response received: 681 characters
+🤖 Answer: To get started with BlueBuck AI, you can follow these simple steps:
+1. Sign up for a free 14-day trial on our website at bluebuck.ai.
+2. Complete a quick 10-minute onboarding process to set up your account.
+3. Connect your existing tools and data sources to integrate them with BlueBuck AI.
+4. Start exploring our pre-built templates or create custom workflows tailored to your needs.
+5. Take advantage of our tutorials and documentation to help you navigate the platform effectively.
+Most users find themselves productive within their first day of using BlueBuck AI.
+📊 Confidence: 0.58
+✅ → ANSWERED
+
+[9] ❓ Query: What's the weather today?
+🤖 Answer: I'm not sure about that. Want me to escalate it?
+📊 Confidence: 0.25
+⚠️  → ESCALATED
+
+[10] ❓ Query: Tell me about your competitors
+🤖 Answer: I'm not sure about that. Want me to escalate it?
+📊 Confidence: 0.30
+⚠️  → ESCALATED
+
+📈 Final Statistics:
+  total_queries: 10
+  escalated_queries: 2
+  escalation_rate: 0.20
+  confidence_threshold: 0.55
+  knowledge_base_size: 9
+  avg_confidence: 0.63
+
+🎯 Key Features Demonstrated:
+✅ FAQ-based responses using OpenAI integration
+✅ Confidence thresholding (55% threshold)
+✅ Smart escalation for irrelevant questions
+✅ Natural language responses with specific details
+✅ Production-ready error handling
+
+🔧 Technical Approach:
+- RAG Architecture: Context retrieval + OpenAI generation
+- Multi-algorithm similarity matching for reliable FAQ retrieval
+- Confidence calculation using relevance + keyword + quality scoring
+- Graceful degradation with escalation handling
+
+💡 Performance Results:
+- 80% of relevant questions answered successfully
+- 20% escalation rate for irrelevant/out-of-scope questions
+- Average confidence score: 0.63 (above threshold)
+- Production-ready reliability

@@ -1,0 +1,8 @@
+openai>=1.0.0
+chromadb>=0.4.0
+numpy>=1.24.0
+uuid
+typing
+dataclasses
+datetime
+json
