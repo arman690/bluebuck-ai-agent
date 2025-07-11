@@ -1,6 +1,6 @@
 # bluebuck-ai-agent
-AI Agent for BlueBuck AI - Interview Task
-# BlueBuck AI Agent - Interview Task
+AI Agent for BlueBuck AI
+# BlueBuck AI Agent
 
 Production-ready RAG AI agent for answering BlueBuck AI product questions.
 
